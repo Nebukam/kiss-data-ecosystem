@@ -1,14 +1,15 @@
 {
-  "name": "@nkm/ecosystem",
+  "name": "@nkm/data-ecosystem",
   "version": "0.0.1",
   "description": "NKM / KISS Ecosystem",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nebukam/nkm-ecosystem.git"
+    "url": "git+https://github.com/Nebukam/nkm-data-ecosystem.git"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "doc": "jsdoc -c ./.jsdoc.conf.json"
   },
   "author": "Timothé Lapetite",
   "license": "MIT",
@@ -16,8 +17,9 @@
     "@nkm/collections": "git+https://github.com/Nebukam/nkm-collections.git",
     "@nkm/utils": "git+https://github.com/Nebukam/nkm-utils.git",
     "@nkm/common": "git+https://github.com/Nebukam/nkm-common.git",
-    "@nkm/core-data": "git+https://github.com/Nebukam/nkm-core-data.git",
+    "@nkm/data-core": "git+https://github.com/Nebukam/nkm-data-core.git",
     "@nkm/actions": "git+https://github.com/Nebukam/nkm-actions.git",
-    "@nkm/dialog": "git+https://github.com/Nebukam/nkm-dialog.git"
+    "@nkm/dialog": "git+https://github.com/Nebukam/nkm-dialog.git",
+    "@nkm/style": "git+https://github.com/Nebukam/nkm-style.git"
   }
 }
