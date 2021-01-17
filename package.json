@@ -14,12 +14,12 @@
   "author": "Timothé Lapetite",
   "license": "MIT",
   "dependencies": {
-    "@nkm/collections": "git+https://github.com/Nebukam/nkm-collections.git",
-    "@nkm/utils": "git+https://github.com/Nebukam/nkm-utils.git",
-    "@nkm/common": "git+https://github.com/Nebukam/nkm-common.git",
-    "@nkm/data-core": "git+https://github.com/Nebukam/nkm-data-core.git",
-    "@nkm/actions": "git+https://github.com/Nebukam/nkm-actions.git",
-    "@nkm/dialog": "git+https://github.com/Nebukam/nkm-dialog.git",
-    "@nkm/style": "git+https://github.com/Nebukam/nkm-style.git"
+    "@nkm/collections": "file:../nkm-collections",
+    "@nkm/utils": "file:../nkm-utils",
+    "@nkm/common": "file:../nkm-common",
+    "@nkm/data-core": "file:../nkm-data-core",
+    "@nkm/actions": "file:../nkm-actions",
+    "@nkm/dialog": "file:../nkm-dialog",
+    "@nkm/style": "file:../nkm-style"
   }
 }
