@@ -1,11 +1,11 @@
 {
-  "name": "@nkm/data-ecosystem",
+  "name": "@nkm/kiss-data-ecosystem",
   "version": "0.0.1",
-  "description": "NKM / KISS Ecosystem",
+  "description": "NKM / KISS Data Ecosystem",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nebukam/nkm-data-ecosystem.git"
+    "url": "git+https://github.com/Nebukam/kiss-data-ecosystem.git"
   },
   "scripts": {
     "test": "node test.js",
